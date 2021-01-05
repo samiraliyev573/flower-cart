@@ -17,38 +17,6 @@ class PlantBody extends StatelessWidget {
             country: "Azerbaijan",
             day: 12,
           ),
-          Row(
-            children: [
-              SizedBox(
-                width: size.width / 2,
-                height: 84,
-                child: FlatButton(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.only(
-                      topRight: Radius.circular(20),
-                    ),
-                  ),
-                  color: kPrimaryColor,
-                  onPressed: () {},
-                  child: Text(
-                    "My Plant",
-                    style: TextStyle(color: Colors.white, fontSize: 16),
-                  ),
-                ),
-              ),
-              Expanded(
-                child: FlatButton(
-                  onPressed: () {},
-                  child: Text(
-                    "Description",
-                  ),
-                ),
-              )
-            ],
-          ),
-          SizedBox(
-            height: kDefaultPadding * 2,
-          )
         ],
       ),
     );
